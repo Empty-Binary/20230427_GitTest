@@ -24,5 +24,10 @@ namespace _20230427_GitTest
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Console.WriteLine((sender as Button).Name);
+        }
     }
 }
