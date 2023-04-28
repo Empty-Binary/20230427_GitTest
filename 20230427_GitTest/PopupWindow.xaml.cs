@@ -10,31 +10,23 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace _20230427_GitTest
 {
     /// <summary>
-    /// MainWindow.xaml에 대한 상호 작용 논리
+    /// Window1.xaml에 대한 상호 작용 논리
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class PopUpWindow : Window
     {
-        public MainWindow()
+        public PopUpWindow()
         {
             InitializeComponent();
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            Console.WriteLine((sender as Button).Name);
-        }
-
-        private void Button_Click_1(object sender, RoutedEventArgs e)
-        {
-            //Console.WriteLine((sender as Button).Name);
-            PopUpWindow popup = new PopUpWindow();
-            popup.ShowDialog();
+            Close();
         }
     }
 }

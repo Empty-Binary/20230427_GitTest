@@ -8,6 +8,9 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <Button Content="Button" HorizontalAlignment="Left" Height="126" Margin="227,104,0,0" VerticalAlignment="Top" Width="126" Click="Button_Click"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="105" Margin="448,114,0,0" VerticalAlignment="Top" Width="105" Click="Button_Click_1"/>
+        <ComboBox HorizontalAlignment="Left" Margin="584,90,0,0" VerticalAlignment="Top" Width="120"/>
+        <ComboBox HorizontalAlignment="Left" Margin="584,152,0,0" VerticalAlignment="Top" Width="120"/>
 
     </Grid>
 </Window>
